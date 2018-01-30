@@ -1,0 +1,103 @@
+body{
+	font-family: sans-serif;
+	font-weight: 300;
+	
+}
+.container{
+	padding:10px;
+	overflow:auto;
+	margin: 30px auto;
+	width: 80%;
+}
+header h1{
+	margin:0px;
+	float:left;
+}
+header nav{
+	margin-top: 85px;
+}
+header nav a{
+	color:#DE0707;
+	float: right;
+	margin-right:20px;
+	text-decoration: none;
+}
+.jumbotron{
+    background-size: cover;
+	background-image: url('family-recipe-picture/bg.jpg');
+    text-align: center;
+    color:#ffffff;
+    height: 500px; 
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+.jumbotron h2{
+	font-size: 60px;
+	font-weight: 700;
+    margin: 0;
+    color: #fff;
+}
+.row-text-center{
+	margin-top: 150px;
+}
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #FF6C6C;
+  text-shadow: none;
+  background-color: #ffffff;
+  padding:10px;
+  text-decoration: none;
+  padding-right:20px;
+  padding-left: 20px;
+
+}
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+section figure a{
+	color:#FF6C6C;
+	text-decoration: none;
+    position:absolute;
+    padding:20px;
+    font-weight:600;
+    background-color: rgba(255,255,255,0.5);
+    /* the last a is transparent denity from 0-1*/
+
+
+}
+
+.col-sm-6{
+	position:relative;
+	display:inline-block;
+	width:40%;
+}
+.col-sm-6:hover{
+	color: #ffffff;
+    background-color: #fbd1d5;
+}
+.pictures{
+	margin-top: 30px;
+}
+
+ul{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	list-style: none;
+	
+}
+ul li img{
+	width:40;
+	padding:10px;
+    text-decoration: none;
+}
+footer{
+	text-align: center;
+	margin-top: 40px;
+}
